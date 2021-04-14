@@ -1,0 +1,27 @@
+/* #main {
+    margin: 10px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: bisque;
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+  }
+  
+  #img-div{
+      background-color: white;
+      margin: 15px;
+      padding: 15px;
+  }
+img{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
