@@ -1,8 +1,5 @@
 /* #main {
-    margin: 10px;
-    background-color: cyan;
-    display: flex;
-    flex-direction: column;
+    ;
   } */
 
   body {
@@ -17,6 +14,9 @@
       background-color: white;
       margin: 15px;
       padding: 15px;
+      text-align: center;
+      font-size: 15px;
+
   }
 img{
     width: 80%;
@@ -24,4 +24,40 @@ img{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+}
+
+.center{
+    display: block;
+}
+h1, h2, h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+li{
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: normal;
+    color: rgb(80, 77,77);
+}
+li span{
+    font-weight: bold;
+}
+
+#tribute-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.value1, .value{
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 10%;
 }
